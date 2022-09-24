@@ -71,13 +71,13 @@ const Home: NextPage = () => {
 
           </div>
           <div className="w-3/4 lg:w-1/2 text-center lg:text-left w-80 text-ellipsis">
-            <h1 className="text-5xl font-bold text-ellipsis overflow-hidden ">Hey{handle ? ` ${handle}` : ""}! I'm Rodrigo.</h1>
+            <h1 className="text-5xl font-bold text-ellipsis overflow-hidden ">Hey{handle ? ` ${handle}` : ""}! I&apos;m Rodrigo.</h1>
 
             <p className="py-6 text-xl text-secondary">I am an autodidact web developer, passionate about Cardano and decentralization.</p>
             <div className="flex w-full justify-center lg:justify-start">
-              <a href="https://github.com/rodrigomd94" target="_blank" ><button><FaGithub size={"2.5em"} className="m-2" /></button></a>
-              <a href="https://www.linkedin.com/in/rodrigo-molina-dacaret-data-and-gis" target="_blank" ><button><FaLinkedin size={"2.5em"} className="m-2" /></button></a>
-              <a href="https://twitter.com/bardic_inspirtn" target="_blank"><button><FaTwitter size={"2.5em"} className="m-2" /></button></a>
+              <a href="https://github.com/rodrigomd94" target="_blank" rel="noreferrer"  ><button><FaGithub size={"2.5em"} className="m-2" /></button></a>
+              <a href="https://www.linkedin.com/in/rodrigo-molina-dacaret-data-and-gis" target="_blank" rel="noreferrer"  ><button><FaLinkedin size={"2.5em"} className="m-2" /></button></a>
+              <a href="https://twitter.com/bardic_inspirtn" target="_blank" rel="noreferrer" ><button><FaTwitter size={"2.5em"} className="m-2" /></button></a>
             </div>
             <Link href="#skills"><button className="btn mt-5">Get To Know Me</button></Link>
           </div>
@@ -129,7 +129,7 @@ const Home: NextPage = () => {
             <div className="text-center lg:text-left px-20" >
               <h1 className="text-3xl lg:text-5xl font-bold text-primary">Project: P2P wallet chat/trading</h1>
               <p className="py-6">POC of a Cardano wallet-to-wallet chat using GUN.js as a decentralized database. It supports multisig transactions for p2p trading.</p>
-              <a href="https://cardano-wallet-chat.vercel.app" target="_blank" className="btn btn-accent">See project</a>
+              <a href="https://cardano-wallet-chat.vercel.app" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
 
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -144,7 +144,7 @@ const Home: NextPage = () => {
               <h1 className="text-3xl lg:text-5xl font-bold text-primary" >Project: Cardano dapp quickstarter</h1>
               <p className="py-6">Created a quickstarter project to make it easy for anyone to start a dapp on Cardano.</p>
               <p>Made with NextJS, uses Lucid and even includes an example of interacting with Smart Contracts using Helios Lang.</p>
-              <a href="https://github.com/rodrigomd94/cardano-dapp-quickstart" target="_blank" className="btn btn-accent">See project</a>
+              <a href="https://github.com/rodrigomd94/cardano-dapp-quickstart" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#chat" className="btn btn-circle btn-secondary">❮</a>
@@ -156,7 +156,7 @@ const Home: NextPage = () => {
             <div className="text-center lg:text-left px-20" >
               <h1 className="text-3xl lg:text-5xl font-bold text-primary">Contribution: ADAO Roundtable</h1>
               <p className="py-6">Contributed on the implementation of signature coordination using GUN.js.</p>
-              <a href="https://github.com/ADAOcommunity/round-table" target="_blank" className="btn btn-accent">See project</a>
+              <a href="https://github.com/ADAOcommunity/round-table" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#quickstarter" className="btn btn-circle btn-secondary">❮</a>
@@ -168,7 +168,7 @@ const Home: NextPage = () => {
             <div className="text-center lg:text-left px-20" >
               <h1 className="text-3xl lg:text-5xl font-bold text-primary" id="projects">Contribution: ADAO NFT minter</h1>
               <p className="py-6">Contributed by adapting the repo for easy adoption by a wider audience.</p>
-              <a href="https://github.com/ADAOcommunity/adao-poc-nft" target="_blank" className="btn btn-accent">See project</a>
+              <a href="https://github.com/ADAOcommunity/adao-poc-nft" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#roundtable" className="btn btn-circle btn-secondary">❮</a>
@@ -180,7 +180,7 @@ const Home: NextPage = () => {
             <div className="text-center lg:text-left px-20" >
               <h1 className="text-3xl lg:text-5xl font-bold text-primary" id="projects">Project: Cardaworlds</h1>
               <p className="py-6">NFT project of 3D procedurally generated planets using Perlin noise.</p>
-              <a href="https://cardaworlds.io" target="_blank" className="btn btn-accent">See project</a>
+              <a href="https://cardaworlds.io" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#minter" className="btn btn-circle btn-secondary">❮</a>
@@ -203,7 +203,7 @@ const Home: NextPage = () => {
         <div id="slide1" className="carousel-item relative w-full justify-center bg-base-100">
           <div className="text-center lg:text-left px-10 text-center w-2/3" >
 
-            <p className="py-6 italic">"Rodrigo is a diligent, hard working, technically competent GIS analyst. He has very good communication skills and has been a joy to work with. I highly recommend him to other employers as no task is too difficult. He has the ability to meet deadlines, work independently or part of a collaborative team. Thank you Rodrigo"</p>
+            <p className="py-6 italic">&quot;Rodrigo is a diligent, hard working, technically competent GIS analyst. He has very good communication skills and has been a joy to work with. I highly recommend him to other employers as no task is too difficult. He has the ability to meet deadlines, work independently or part of a collaborative team. Thank you Rodrigo&quot;</p>
             <p> - James Beech</p>
             <p className="text-secondary">Head of Enterprise Information Management at Westpac New Zealand</p>
           </div>
@@ -214,8 +214,8 @@ const Home: NextPage = () => {
         </div>
         <div id="slide2" className="carousel-item relative w-full justify-center">
           <div className="text-center lg:text-left px-10 text-center w-2/3" >
-            <p className="py-6 italic">"Rodrigo is quite simply one of the best people I have worked with in tech (...)
-              I can not recommend working with Rodrigo high enough. He does work quickly and efficiently, but equally important, he tactfully gives feedback and suggestions when appropriate.
+            <p className="py-6 italic">&quot;Rodrigo is quite simply one of the best people I have worked with in tech (...)
+              I can not recommend working with Rodrigo high enough. He does work quickly and efficiently, but equally important, he tactfully gives feedback and suggestions when appropriate.&quot;
             </p>
             <p> - Jim Cupples</p>
             <p className="text-secondary">CEO/Cofounder at All The Farms</p>
@@ -234,9 +234,9 @@ const Home: NextPage = () => {
           <p>rodrigomd94@gmail.com</p>
         </div>
         <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-          <a href="https://github.com/rodrigomd94" target="_blank" ><button><FaGithub size={"2.5em"} className="m-2" /></button></a>
-          <a href="https://www.linkedin.com/in/rodrigo-molina-dacaret-data-and-gis" target="_blank" ><button><FaLinkedin size={"2.5em"} className="m-2" /></button></a>
-          <a href="https://twitter.com/bardic_inspirtn" target="_blank"><button><FaTwitter size={"2.5em"} className="m-2" /></button></a>
+          <a href="https://github.com/rodrigomd94" target="_blank" rel="noreferrer"  ><button><FaGithub size={"2.5em"} className="m-2" /></button></a>
+          <a href="https://www.linkedin.com/in/rodrigo-molina-dacaret-data-and-gis" target="_blank" rel="noreferrer"  ><button><FaLinkedin size={"2.5em"} className="m-2" /></button></a>
+          <a href="https://twitter.com/bardic_inspirtn" target="_blank" rel="noreferrer" ><button><FaTwitter size={"2.5em"} className="m-2" /></button></a>
         </div>
       </footer>
 
