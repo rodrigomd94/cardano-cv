@@ -71,7 +71,7 @@ const Home: NextPage = () => {
 
           </div>
           <div className="w-3/4 lg:w-1/2 text-center lg:text-left w-80 text-ellipsis">
-            <h1 className="text-5xl font-bold text-ellipsis overflow-hidden ">Hey{handle ? ` ${handle}` : ""}! I&apos;m Rodrigo.</h1>
+            <h1 className="text-4xl font-bold text-ellipsis overflow-hidden p-5 ">Hey{handle ? ` ${handle}` : ""}! I&apos;m Rodrigo.</h1>
 
             <p className="py-6 text-xl text-secondary">I am an autodidact web developer, passionate about Cardano and decentralization.</p>
             <div className="flex w-full justify-center lg:justify-start">
@@ -240,9 +240,9 @@ const Home: NextPage = () => {
         </div>
       </footer>
 
-      <div className="mx-40 my-10">
-        {/* <NftGrid nfts={nftList} /> */}
-      </div>
+      {/* <div className="mx-40 my-10">
+        <NftGrid nfts={nftList} />
+      </div> */}
     </div>
   )
 }
