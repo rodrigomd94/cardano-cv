@@ -129,14 +129,27 @@ const Home: NextPage = () => {
             <div className="text-center lg:text-left px-20" >
               <h1 className="text-3xl lg:text-5xl font-bold text-primary">Project: P2P wallet chat/trading</h1>
               <p className="py-6">POC of a Cardano wallet-to-wallet chat using GUN.js as a decentralized database. It supports multisig transactions for p2p trading.</p>
-              <a href="https://cardano-wallet-chat.vercel.app" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
+              <a href="https://cardano-wallet-chat.vercel.app" target="_blank" rel="noreferrer" className="btn btn-accent">See project</a>
 
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#cardaworlds" className="btn btn-circle btn-secondary">❮</a>
+              <a href="#subscription" className="btn btn-circle btn-secondary">❯</a>
+            </div>
+          </div>
+
+          <div className="carousel w-full align-middle h-2/3" >
+          <div id="subscription" className="relative flex-col justify-center carousel-item w-full items-center" >
+            <div className="text-center lg:text-left px-20" >
+              <h1 className="text-3xl lg:text-5xl font-bold text-primary">Project: Cardano Subscription Manager</h1>
+              <p className="py-6">A Cardano subscription manager using, where vendors can easily create their subscription plans and send a link to customers to subscribe to their services. All on-chain! Smart contract made with Helios.</p>
+              <a href="http://preprod.subscription-manager.bardicinspiration.xyz/" target="_blank" rel="noreferrer" className="btn btn-accent">See project(preprod)</a>
+
+            </div>
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#chat" className="btn btn-circle btn-secondary">❮</a>
               <a href="#quickstarter" className="btn btn-circle btn-secondary">❯</a>
             </div>
-
           </div>
 
           <div id="quickstarter" className="relative flex-col justify-center carousel-item w-full items-center" >
@@ -144,10 +157,10 @@ const Home: NextPage = () => {
               <h1 className="text-3xl lg:text-5xl font-bold text-primary" >Project: Cardano dapp quickstarter</h1>
               <p className="py-6">Created a quickstarter project to make it easy for anyone to start a dapp on Cardano.</p>
               <p>Made with NextJS, uses Lucid and even includes an example of interacting with Smart Contracts using Helios Lang.</p>
-              <a href="https://github.com/rodrigomd94/cardano-dapp-quickstart" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
+              <a href="https://github.com/rodrigomd94/cardano-dapp-quickstart" target="_blank" rel="noreferrer" className="btn btn-accent">See project</a>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#chat" className="btn btn-circle btn-secondary">❮</a>
+              <a href="#subscription" className="btn btn-circle btn-secondary">❮</a>
               <a href="#roundtable" className="btn btn-circle btn-secondary">❯</a>
             </div>
           </div>
@@ -156,7 +169,7 @@ const Home: NextPage = () => {
             <div className="text-center lg:text-left px-20" >
               <h1 className="text-3xl lg:text-5xl font-bold text-primary">Contribution: ADAO Roundtable</h1>
               <p className="py-6">Contributed on the implementation of signature coordination using GUN.js.</p>
-              <a href="https://github.com/ADAOcommunity/round-table" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
+              <a href="https://github.com/ADAOcommunity/round-table" target="_blank" rel="noreferrer" className="btn btn-accent">See project</a>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#quickstarter" className="btn btn-circle btn-secondary">❮</a>
@@ -168,7 +181,7 @@ const Home: NextPage = () => {
             <div className="text-center lg:text-left px-20" >
               <h1 className="text-3xl lg:text-5xl font-bold text-primary" id="projects">Contribution: ADAO NFT minter</h1>
               <p className="py-6">Contributed by adapting the repo for easy adoption by a wider audience.</p>
-              <a href="https://github.com/ADAOcommunity/adao-poc-nft" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
+              <a href="https://github.com/ADAOcommunity/adao-poc-nft" target="_blank" rel="noreferrer" className="btn btn-accent">See project</a>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#roundtable" className="btn btn-circle btn-secondary">❮</a>
@@ -180,7 +193,7 @@ const Home: NextPage = () => {
             <div className="text-center lg:text-left px-20" >
               <h1 className="text-3xl lg:text-5xl font-bold text-primary" id="projects">Project: Cardaworlds</h1>
               <p className="py-6">NFT project of 3D procedurally generated planets using Perlin noise.</p>
-              <a href="https://cardaworlds.io" target="_blank" rel="noreferrer"  className="btn btn-accent">See project</a>
+              <a href="https://cardaworlds.io" target="_blank" rel="noreferrer" className="btn btn-accent">See project</a>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#minter" className="btn btn-circle btn-secondary">❮</a>
